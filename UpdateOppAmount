@@ -1,5 +1,5 @@
 /****
-@Trigger Name: UpdateOppAmount.
+@Trigger Name: UpdateOppAmount..
 @Purpose: Update total amount of opportunities on account using trigger, like roll-summay-sum.
 ****/
 trigger UpdateOppAmount on Opportunity (after insert, after update, after delete) {
